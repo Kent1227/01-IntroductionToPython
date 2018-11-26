@@ -42,4 +42,4 @@ worden.left(90)
 worden.forward(100)
 worden.pen_down()
 for k in range(500):
-    jack.set_heading((180/3.1415265) * math.atan(worden.x_cor() / worden.y_cor()))
+    jack.set_heading((180/3.1415265) * math.atan(worden.x_cor() / worden.y_cor())) 
